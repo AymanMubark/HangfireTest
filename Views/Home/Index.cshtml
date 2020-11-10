@@ -1,0 +1,15 @@
+﻿@model IEnumerable<HangfireTest.Models.Auction>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach(Auction row in Model){
+    <h1>@row.Name</h1>
+    <h1>@row.Status</h1>
+    <h1>@row.StartAt</h1>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

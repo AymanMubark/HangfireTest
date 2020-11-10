@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ayman/HangfireTest/HangfireTest.csproj": {}
+  },
+  "projects": {
+    "/Users/ayman/HangfireTest/HangfireTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayman/HangfireTest/HangfireTest.csproj",
+        "projectName": "HangfireTest",
+        "projectPath": "/Users/ayman/HangfireTest/HangfireTest.csproj",
+        "packagesPath": "/Users/ayman/.nuget/packages/",
+        "outputPath": "/Users/ayman/HangfireTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
